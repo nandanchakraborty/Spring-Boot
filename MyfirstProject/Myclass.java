@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Myclass {
 
-    @GetMapping("abc")
+    @GetMapping("nandan")
     public String sayHello(){
         return "hello nandan welcome to spring boot";
     }
